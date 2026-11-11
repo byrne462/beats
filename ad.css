@@ -1,0 +1,106 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+.font-face {
+	font-family:martel reg;
+	src:url(..fonts/martel-regular.ttf)format('truetype');
+}
+
+.font-face {
+	font-family:martel light;
+	src:url(..fonts/martel-light.ttf)format('truetype');
+}
+
+.frame {
+	width: 970px;
+	height: 250px;
+	border: solid 1px gray;
+	background: lightpink;
+	position: absolute;
+}
+
+.title{
+	font-family: martel reg;
+	font-size: 3em;
+	position: absolute;
+	left: 50px;
+	top: 25px;
+	z-index: 1;
+}
+
+.line{
+	border: 45px hotpink solid;
+	width: 1000px;
+	hight: 600px;
+	top:95px;
+	left: -20px;
+	position: relative;
+	transform: rotate(12deg);
+	z-index: 0;
+}
+
+.image{
+	width: 250px;
+	height: 250px;
+	background: url("../image/beats.png");
+	background-size:cover;
+	position: relative;
+	top: -85px;
+	left: 700px;
+	z-index: 3;
+}
+.text{
+	font-family: martel light;
+	font-size: 1.15em;
+	color:#550000;
+	position: relative;
+	letter-spacing: 0.5px;
+	left: -650px;
+	bottom: -100px;
+	width: 450px;
+
+}
+
+.link:hover{
+	color:white;
+	background: hotpink;
+	transition: 0.4s;
+}
+.link {
+	font-family: roboto;
+	font-size: 25px;
+	text-align: center;
+	color: #ff1d8d;
+	letter-spacing: 0.1;
+	margin-top: 60px;
+	border:solid 2px #ff77ff;
+	width: 420 px;
+	line-height: 44px;
+	padding: 7px 5px 7px 5px;
+	text-decoration: none;
+	position: absolute;
+	top: -40px;
+	left: -150px;
+}
+
+
+.frame {
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
